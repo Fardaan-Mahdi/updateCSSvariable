@@ -1,0 +1,63 @@
+html{
+    font-size: 2vw;
+}
+
+:root{
+    --spacing: 0px;
+    --blur: 0px;
+    --baseColor: #e66465;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat Alternates', sans-serif;
+    background: #3498db;
+    color: white;
+}
+
+span{
+    color: var(--baseColor);
+}
+.project3{
+    margin: auto 10%;
+    text-align: center;
+
+}
+
+.project3>h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 0.7rem;
+    margin: 0.5rem auto;
+}
+
+.project3>h1{
+    font-size: 2rem;
+    margin: 1rem auto;
+}
+
+.setting{
+    margin: 1rem auto;
+    color: #333333;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.setting input{
+    accent-color: var(--baseColor);
+}
+
+.project3>img{
+    width: 60vw;
+    margin: 1rem auto;
+    padding: var(--spacing);
+    filter: blur(var(--blur));
+    background: var(--baseColor);
+
+}
+
+
